@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.examenT2</groupId>
-	<artifactId>LP2_T2_Paucar_Ana_Examen</artifactId>
+	<artifactId>LP2_T2_Paucar_Ana</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>LP2_T2_Paucar_Ana_Examen</name>
+	<name>LP2_T2_Paucar_Ana</name>
 	<description>Segunda evaluación de laboratorio - Módulo de gestión de compras</description>
 	<properties>
 		<java.version>21</java.version>
