@@ -34,4 +34,9 @@ public class RubroPaucarAna {
 	public void setDenominacion(String denominacion) {
 		this.denominacion = denominacion;
 	}
+
+	@Override
+	public String toString() {
+		return "RubroPaucarAna [idRubro=" + idRubro + ", denominacion=" + denominacion + "]";
+	}
 }

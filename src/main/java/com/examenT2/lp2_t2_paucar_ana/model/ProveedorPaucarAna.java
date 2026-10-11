@@ -94,4 +94,11 @@ public class ProveedorPaucarAna {
 	public void setRubro(RubroPaucarAna rubro) {
 		this.rubro = rubro;
 	}
+
+	@Override
+	public String toString() {
+		return "ProveedorPaucarAna [idProveedor=" + idProveedor + ", ruc=" + ruc + ", razonSocial=" + razonSocial
+				+ ", fechaRegistro=" + fechaRegistro + ", direccion=" + direccion + ", paginaWeb=" + paginaWeb
+				+ ", rubro=" + rubro + "]";
+	}
 }

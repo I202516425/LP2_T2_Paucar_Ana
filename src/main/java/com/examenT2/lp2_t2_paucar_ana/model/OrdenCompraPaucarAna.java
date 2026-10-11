@@ -105,4 +105,11 @@ public class OrdenCompraPaucarAna {
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
+
+	@Override
+	public String toString() {
+		return "OrdenCompraPaucarAna [nroOrden=" + nroOrden + ", proveedor=" + proveedor + ", monto=" + monto
+				+ ", direccionEntrega=" + direccionEntrega + ", fechaEntrega=" + fechaEntrega + ", estado=" + estado
+				+ "]";
+	}
 }
